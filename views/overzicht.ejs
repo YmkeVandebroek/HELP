@@ -1,0 +1,40 @@
+<html lang="nl" dir="ltr">
+<head>
+  <title>Anton Pieck Museum | Overzicht</title>
+  <link rel="stylesheet" type="text/css" href="CSS/reset_plus.css">
+  <link rel="stylesheet" type="text/css" href="CSS/stijl.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+  <script src="JS/isotope.js" defer></script>
+  <script src="JS/script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Titillium+Web&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+</head>
+<body>
+  <header>
+    <%- include('header'); -%>
+  </header>
+  <main>
+    <h2>Filteren op tijdsperiode</h2>
+    <div class="buttonrij filter button-group filters-button-group">
+      <button type="button" data-filter=".d1930s" name="button">1930's</button>
+      <button type="button" data-filter=".d1940s" name="button">1940's</button>
+      <button type="button" data-filter=".d1950s" name="button">1950's</button>
+      <button type="button" data-filter=".d1960s" name="button">1960's</button>
+      <button type="button" data-filter=".d1970s" name="button">1970's</button>
+      <button type="button" data-filter=".d1980s" name="button">1980's</button>
+    </div>
+    <div class="grid">
+      <% for (let i=0; i<posts.length; i++) { %>
+        <section>
+          <%- include('blogpost', {post: posts[i], index: i}); -%>
+        </section>
+      <% } // close forloop %>
+    </div>
+  </main>
+  <footer>
+  </footer>
+</body>
+<!DOCTYPE html>
+</html>

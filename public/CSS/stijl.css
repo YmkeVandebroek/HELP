@@ -1,0 +1,131 @@
+h1{
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  background-color: #00586F;
+  color: white;
+}
+nav{
+  width : 100%;
+  background-color: #585A55;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navigatie{
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+  border-left: 0.1rem solid white;
+  text-align: center;
+}
+
+.navigatie:nth-child(1){
+  border-left:0;
+}
+
+header{
+  margin-bottom:1rem;
+}
+
+h2{
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  background-color: #00586F;
+  color: white;
+}
+
+img{
+  width: 100%;
+}
+
+p{
+  text-align: center;
+  padding: 1rem;
+  background-color: #585A55;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h3{
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Playfair Display', serif;
+  background-color: #00586F;
+  color: white;
+  margin-top: 1rem;
+}
+
+h4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #585A55;
+  color; white;
+  color: white;
+}
+
+h4 p{
+  background-color: #585A55;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.gridel:hover{
+  opacity: 0.5;
+}
+
+.wit{
+  background-color: white;
+  color: black;
+}
+
+h5{
+  background-color: #585A55;
+  padding: 0.5rem;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 30%;
+}
+
+.witkader{
+  background-color: white;
+  color: black;
+  border: 0.3rem solid #585A55;
+}
+
+.contact{
+  margin-bottom: 1rem;
+}
+
+.buttonrij{
+  display: grid;
+}
+
+button{
+  padding: 1rem;
+}
+
+button:focus{
+  background-color: #585A55;
+  color: white;
+}
+
+.grid{
+  width: 100%;
+}

@@ -1,0 +1,73 @@
+{
+  "blog": [{
+    "title":"Anchor Inn",
+    "image":"/img/werk1.jpg",
+    "year": "1935",
+    "medium":"Waterverf, potlood, inkt",
+    "size":"55.2 x 43 cm",
+    "class":"gridel d1930s"
+  },{
+    "title":"Bij de kruidenier",
+    "image":"/img/werk2.webp",
+    "year": "1942",
+    "medium":"Waterverf, potlood, inkt",
+    "size":"43.5 × 49.7cm",
+    "class":"gridel d1940s"
+  },{
+    "title":"Stadszichten - Amersfoort",
+    "image":"/img/werk3.webp",
+    "year": "1960's",
+    "medium":"Waterverf, potlood, inkt",
+    "size":"28 × 43cm",
+    "class":"gridel d1960s"
+  },{
+    "title":"Verlaten van de stad",
+    "image":"/img/werk4.webp",
+    "year": "1970's",
+    "medium":"Waterverf, potlood, inkt",
+    "size":"23.5 × 35cm",
+    "class":"gridel d1970s"
+  },{
+    "title":"De antieke boeken verkoper",
+    "image":"/img/werk5.webp",
+    "year": "1960's",
+    "medium":"Waterverf, potlood, inkt",
+    "size":"22.5 × 34.5cm",
+    "class":"gridel d1960s"
+  },{
+    "title":"Reis van Nils met wilde rendieren",
+    "image":"/img/werk6.webp",
+    "year": "1940",
+    "medium":"Waterverf, potlood, inkt",
+    "size":"32 × 25.5cm",
+    "class":"gridel d1940s"
+  },{
+    "title":"Kerstmis Postkaart met besneeuwde kerk",
+    "image":"/img/werk7.webp",
+    "year": "1959",
+    "medium":"Waterverf, potlood, inkt",
+    "size":"28.4 × 19.6cm",
+    "class":"gridel d1950s"
+  },{
+    "title":"Winteravond in Den Haag",
+    "image":"/img/werk8.webp",
+    "year": "1940's",
+    "medium":"Waterverf, potlood, inkt",
+    "size":"38.5 × 23.5cm",
+    "class":"gridel d1940s"
+  },{
+    "title":"Sneeuwwitje - Illustratie voor de sprookjes van de gebroeders Grimm",
+    "image":"/img/werk9.webp",
+    "year": "1942",
+    "medium":"Waterverf, potlood, inkt",
+    "size":"26.5 × 34.5cm",
+    "class":"gridel d1940s"
+  },{
+    "title":"Duizend-en-één nachten - Het verhaal van Nur-al-Nijar",
+    "image":"/img/werk10.webp",
+    "year": "1943",
+    "medium":"Waterverf, potlood, inkt",
+    "size":" 38.5 × 26cm",
+    "class":"gridel d1940s  kijker"
+  }]
+}

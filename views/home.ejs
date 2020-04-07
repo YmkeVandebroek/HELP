@@ -1,0 +1,28 @@
+<html lang="nl" dir="ltr">
+	<head>
+		<title>Anton Pieck Museum | Home</title>
+		<link rel="stylesheet" type="text/css" href="CSS/reset_plus.css">
+		<link rel="stylesheet" type="text/css" href="CSS/stijl.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+	</head>
+	<body>
+    <header>
+      <%- include('header'); -%>
+    </header>
+    <main>
+      <h2>Welkom!</h2>
+      <img class="welkom" src="img/welkom.jpg" alt="achterkant Anton Pieck Museum">
+      <p>Welkom bij het Anton Pieck Museum! Ontdek hier de mooiste werken van de Nederlandse illustrator Anton Pieck!</p>
+			<h2>Werk in de kijker</h2>
+      <% for (let i=0; i<posts.length; i++) { %>
+        <section>
+          <%- include('blogpost', {post: posts[i], index: i}); -%>
+        </section>
+      <% } // close forloop %>
+		</main>
+    <footer>
+    </footer>
+	</body>
+</html>
