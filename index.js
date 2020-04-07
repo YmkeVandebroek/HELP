@@ -55,7 +55,6 @@ app.get('/blog/:postid', function(req,res){
 
 //NIEUW STUK---------------------------------------------------------------------------------------------
 
-//heroku poortinstellingen
-(app.set('port', (process.env.PORT || 5000));
-//webserver opstarten of laten draaien
-app.listen(app.get('port')); //luister naar poortnummer 5000
+//webserver opstarten of laten draaien op HEROKU
+app.set('port', (process.env.PORT || 5000));
+app.listen(app.get('port'), function() { });
